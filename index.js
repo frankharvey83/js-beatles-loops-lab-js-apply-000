@@ -27,12 +27,12 @@ function johnLennonFacts(arr) {
 
 function iLoveTheBeatles(num) {
    var newArr = [];
-   for (i = 0; i < num + 1; i++) {
    if (num === 7) {
-      newArr.push("I love the Beatles!");
+     for (i = 0; i < num + 1; i++) {
+       newArr.push("I love the Beatles!");
+     }
  } else {
      newArr.push("I love the Beatles!")
    }
- }
    return newArr;
  };
