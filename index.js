@@ -27,9 +27,8 @@ function johnLennonFacts(arr) {
 
 function iLoveTheBeatles(num) {
    var newArr = [];
-   var i;
    if (num === 7) {
-     for (i = 0; i < num + 1; i++) {
+     for ( let i = 0; i < num + 1; i++) {
        newArr.push("I love the Beatles!");
      }
  } else {
